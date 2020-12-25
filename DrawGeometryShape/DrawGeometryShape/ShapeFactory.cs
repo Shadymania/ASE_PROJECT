@@ -16,6 +16,8 @@ namespace DrawGeometryShape
     {
         /// <summary>
         /// Method that creates Shapes according to the shape type
+        /// Fetch the new object of the certain shape types.
+        /// and returns the r as parameter
         /// </summary>
         /// <param name="shapetype">the name of shape provided by user</param>
         /// <returns>An object of a specific shape type </returns>
