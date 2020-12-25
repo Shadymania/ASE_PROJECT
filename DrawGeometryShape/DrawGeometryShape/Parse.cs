@@ -18,8 +18,10 @@ using System.Windows.Forms;
 namespace DrawGeometryShape { 
     public class Parse:Form1
     {
-        DataTable dt;   
-        //used to compute expressions
+        DataTable dt;
+        //This dt is used to compute the expression.
+        //creating an empty data table for which the TableName property is set to Order. 
+        //You can use this property to access this data table from a DataTableCollection.
         Dictionary<String, String> variables;
         int[,] loopRecorder;        
         //number of loop and its starting and ending line (basically stores the desired line number)
@@ -45,6 +47,8 @@ namespace DrawGeometryShape {
         //stops the parsing of line if method block is running
 
         //default constructor
+        //doesnot contain any parameter value
+        //it is a method
         public Parse()
         {
             ifRunning = false;
