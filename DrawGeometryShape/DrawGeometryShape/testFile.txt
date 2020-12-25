@@ -1,0 +1,22 @@
+clear
+reset
+
+moveTO 100,200
+drawTo 200,200
+triangle 100,100,100
+square 130
+fill on
+color red
+triangle 50,50,50
+
+drawTo 200,80
+color green
+square 50
+
+drawTo 360,80
+color yellow
+circle 70
+
+color blue
+drawTo 400,200
+rect 120,80

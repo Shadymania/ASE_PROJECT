@@ -1,0 +1,11 @@
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\bin\Debug\DrawGeometryShape.exe.config
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\bin\Debug\DrawGeometryShape.exe
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\bin\Debug\DrawGeometryShape.pdb
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.csprojAssemblyReference.cache
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.Form1.resources
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.Properties.Resources.resources
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.csproj.GenerateResource.cache
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.csproj.CoreCompileInputs.cache
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.exe
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.pdb
+C:\Users\rd vai\Desktop\DrawGeometryShape\DrawGeometryShape\obj\Debug\DrawGeometryShape.Form2.resources

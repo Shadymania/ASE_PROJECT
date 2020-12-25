@@ -1,0 +1,34 @@
+reset
+method mymethod()
+drawto 200,200
+circle 50
+endmethod
+
+mymethod()
+
+//
+reset
+clear
+drawto 130,130
+a=50
+loop a<200
+circle a
+a=a+3
+endloop
+//
+reset
+clear
+drawto 200,130
+a=50
+b=50
+loop a<200
+circle a
+square b
+a=a+3
+b=b+5
+endloop
+
+if b>200
+drawTo 440,130
+triangle 50,50,60
+endif
