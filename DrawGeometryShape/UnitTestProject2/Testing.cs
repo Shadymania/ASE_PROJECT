@@ -2,6 +2,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DrawGeometryShape;
 using drawing = System.Drawing;
 
+/// <summary>
+///  Nabin Atreya Sunar
+///  ID: C7202333
+///  College: The British College
+/// </summary>
+
 
 namespace UnitTestProject2
 {
@@ -29,6 +35,7 @@ namespace UnitTestProject2
 
         /// <summary>
         /// Tests if a Rectangle class validly forms
+        /// With the correct parameter
         /// </summary>
         [TestMethod]
         public void TestRectangle()
