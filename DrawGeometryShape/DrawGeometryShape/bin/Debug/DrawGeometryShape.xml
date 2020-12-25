@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DrawGeometryShape</name>
+    </assembly>
+    <members>
+        <member name="M:DrawGeometryShape.Canvas.moveTo(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="param">moves the cursor pointer to defined positions</param>
+            <returns>moves the cursor pointer to defined positions</returns>
+        </member>
+        <member name="M:DrawGeometryShape.Canvas.drawTo(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="param">draws line to defined positions, returns false if error found</param>
+            <returns>draws line to defined positions, returns false if error found</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:DrawGeometryShape.Canvas.setColor(System.String[])" -->
+        <member name="M:DrawGeometryShape.Canvas.setFill(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="param">sets fill status for shapes,  returns false if error found</param>
+            <returns>sets fill status for shapes,  returns false if error found</returns>
+        </member>
+        <member name="T:DrawGeometryShape.Circle">
+            <summary>
+            Circle Class,The class inherited from the specific version of the shapes
+            This class possess os some distinctive qualities
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Circle.radius">
+            <summary>
+            The radius is a distinctive property of Circle
+            it has been declared an integer
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Circle.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+             <summary>
+            Method overrides the set method from Shapes class.
+             All the properties required for creating/drawing circle 
+             all come in the order:color,fill status and radius
+             </summary>
+             <param name="color">Color of the object</param>
+             <param name="fill"> filled with color in the shape</param>
+             <param name="list">list in the object</param>
+        </member>
+        <member name="M:DrawGeometryShape.Circle.draw(System.Drawing.Graphics)">
+             <summary>
+            Overriding the draw method from Shape class.
+             Specifically draws a circle with the help of Graphics.DrawEllipse method
+             uses the paramteres set from the set method
+             </summary>
+             <param name="g">The object of the graphics</param>
+        </member>
+        <member name="F:DrawGeometryShape.Form1.drawBoard">
+            <summary>
+             output bitmap image
+             cursor pointer bitmap image
+             canvas for drawing on output bitmap image
+             Parses the command line
+             Stores the list of errors while parsing
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Form1.sAVEToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            This private method saves a program written in the Program Box to D: drive
+            </summary>
+            <param name="sender"></param>
+            <param name="e">The event that is triggered when the menu item is clicked </param>
+        </member>
+        <member name="F:DrawGeometryShape.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DrawGeometryShape.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DrawGeometryShape.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Parse.computeExpression(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="expression">Object of the datatable that returns param in the expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawGeometryShape.Parse.swapVarValuesInExpression(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            
+            </summary>
+            <param name="expression">Stores the value in the expression param</param>
+            <param name="varDict">Stores in the array as a string</param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawGeometryShape.Parse.parseCommand(System.Windows.Forms.RichTextBox,DrawGeometryShape.Canvas,System.Text.StringBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="rtb">rtb acts as the richboxtext</param>
+            <param name="displayCanvas">Object of the canvas that prints </param>
+            <param name="errorList">that checks the error in the richbox text</param>
+        </member>
+        <member name="M:DrawGeometryShape.Parse.preParser(System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="parameters">stores in the parameters</param>
+        </member>
+        <member name="M:DrawGeometryShape.Parse.runCommand(System.String,System.Int32)">
+            <summary>
+            
+            <param name="line">checks in the string of the text in the line</param>
+            <param name="lineNo">scans as the </param>
+              /// </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:DrawGeometryShape.Rectangle">
+            <summary>
+            Rectangle, a more specific version of Shape, class inherited from it.
+            Has some unique properties.
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Rectangle.width">
+            <summary>
+            width and height, some unique properties of Rectancle class declared as integers 
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Rectangle.height">
+            <summary>
+            width and height, some unique properties of Rectancle class declared as integers 
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Rectangle.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+            <summary>
+            Method overrides the set method from Shapes class.
+            All the properties required for creating/drawing rectangle 
+            all come in the order:color,fill status , width and height
+            </summary>
+            <param name="color">color of the string </param>
+            <param name="fill">fill in the text</param>
+            <param name="list">list in the text</param>
+        </member>
+        <member name="M:DrawGeometryShape.Rectangle.draw(System.Drawing.Graphics)">
+            <summary>
+            Overriding the draw method from Shape class.
+            Specifically draws a rectangle with the help of Graphics.DrawRectangle method
+            uses the paramteres set from the set method
+            </summary>
+            <param name="g">The object of the graphics</param>
+        </member>
+        <member name="T:DrawGeometryShape.Shape">
+            <summary>
+            An abstract class Shape inherited from Shapes interface
+            Contains methods that need to be overerriden.
+            Also, some more specific properties of Shape like xaxis and yaxis.
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Shape.xaxis">
+            <summary>
+            Some specific properties of Shape class
+            Making these accessable throughout the namespace
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Shape.yaxis">
+            <summary>
+            Some specific properties of Shape class
+            Making these accessable throughout the namespace
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Shape.draw(System.Drawing.Graphics)">
+            <summary>
+            The draw method is yet again declared abstract.
+            postponing this method definition for more specific child version.
+            </summary>
+            <param name="g">The object of the graphics</param>
+        </member>
+        <member name="M:DrawGeometryShape.Shape.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+            <summary>
+            Some properties of Shape class is reserved in the order in which they arrive.
+            ie Color, fill, xaxis and yaxis
+            </summary>
+            <param name="color">stores as the color</param>
+            <param name="fill">stores in the fill</param>
+            <param name="list">stores in the list</param>
+        </member>
+        <member name="T:DrawGeometryShape.ShapeFactory">
+            <summary>
+            Factory pattern is applied here.
+            This is an independent class, a common interface that creates/produces objects. 
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.ShapeFactory.createShape(System.String)">
+            <summary>
+            Method that creates Shapes according to the shape type
+            </summary>
+            <param name="shapetype">the name of shape provided by user</param>
+            <returns>An object of a specific shape type </returns>
+        </member>
+        <member name="T:DrawGeometryShape.Shapes">
+            <summary>
+            The top most class of the Shape inheritance heriarchy, an interface to be particular.
+            Contains services(methods) offered by this interface.
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Shapes.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+            <summary>
+            An abstract method 'set' that needs to be overrriden ahead.
+            Contains some basic properties of shapes like color.
+            </summary>
+            <param name="color">The color a shape might have</param>
+            <param name="fill">A property of shape to decide weather its painted</param>
+            <param name="list"> An integer array reserved for the shape Measurements </param>
+        </member>
+        <member name="M:DrawGeometryShape.Shapes.draw(System.Drawing.Graphics)">
+            <summary>
+            An abstract method 'draw' that needs to be overrriden ahead.
+            Method exists for drawing shape in picture box
+            </summary>
+            <param name="g">An object of Graphics on which we draw.</param>
+        </member>
+        <member name="T:DrawGeometryShape.Square">
+            <summary>
+            Square, a more specific version of Shape, class inherited from it.
+            Has some unique properties.
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Square.width">
+            <summary>
+            width, some unique properties of square class declared as integers 
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Square.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+            <summary>
+            Method overrides the set method from Shapes class.
+            All the properties required for creating/drawing rectangle 
+            all come in the order:color,fill status , width and height
+            </summary>
+            <param name="color"> Color components in the shape</param>
+            <param name="fill">fill color in the shape</param>
+            <param name="list">stores in the list</param>
+        </member>
+        <member name="M:DrawGeometryShape.Square.draw(System.Drawing.Graphics)">
+            <summary>
+            Overriding the draw method from Shape class.
+            Specifically draws a rectangle with the help of Graphics.DrawRectangle method
+            uses the paramteres set from the set method
+            </summary>
+            <param name="g">Object of the graphics</param>
+        </member>
+        <member name="T:DrawGeometryShape.Triangle">
+            <summary>
+            Triangle, a more specific version of Shape, class inherited from it.
+            Has some unique properties.
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Triangle.hypotenuse">
+            <summary>
+            height,breadth and perpendicular a unique property of Triangle, declared as integer
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Triangle.breadth">
+            <summary>
+            height,breadth and perpendicular a unique property of Triangle, declared as integer
+            </summary>
+        </member>
+        <member name="F:DrawGeometryShape.Triangle.perpendicular">
+            <summary>
+            height,breadth and perpendicular a unique property of Triangle, declared as integer
+            </summary>
+        </member>
+        <member name="M:DrawGeometryShape.Triangle.set(System.Drawing.Color,System.Boolean,System.Int32[])">
+            <summary>
+            ///Method overrides the set method from Shapes class.
+            All the properties required for creating/drawing triangle 
+            all come in the order:color,fill status and radius
+            </summary>
+            <param name="color">Color of the object</param>
+            <param name="fill">fill shape in the color</param>
+            <param name="list">list stores with integer</param>
+        </member>
+        <member name="M:DrawGeometryShape.Triangle.draw(System.Drawing.Graphics)">
+            <summary>
+            Overriding the draw method from Shape class.
+            Specifically draws a triangle with the help of Graphics.DrawPolygon method
+            uses the paramteres set from the set method
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:DrawGeometryShape.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:DrawGeometryShape.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:DrawGeometryShape.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
