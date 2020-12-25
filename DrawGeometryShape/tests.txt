@@ -1,6 +1,9 @@
 reset
 method mymethod()
 drawto 200,200
+reset
+method m1()
+drawto 200,200
 circle 50
 endmethod
 
